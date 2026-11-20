@@ -1,0 +1,5 @@
+# Local document history registry (contains machine-local user file paths)
+data/
+*.tmp
+.DS_Store
+Thumbs.db

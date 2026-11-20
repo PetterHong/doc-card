@@ -1,0 +1,14 @@
+{
+  "name": "doc-card",
+  "displayName": "文档卡片助手",
+  "version": "1.0.0",
+  "description": "在对话中以带底色的醒目卡片展示产出的 Word/PDF/Excel/PPT 文档，并通过右侧辅助面板一键使用默认软件打开、在文件资源管理器中定位或复制到桌面。",
+  "author": "PetterHong",
+  "repository": "https://github.com/PetterHong/doc-card",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "打开文档卡片助手面板查看最近生成的文件",
+    "把刚生成的 Word 文档在资源管理器中显示",
+    "将最新生成的开题报告复制到桌面"
+  ]
+}

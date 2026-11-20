@@ -1,0 +1,20 @@
+{
+  "command": "node",
+  "args": [
+    "server.mjs"
+  ],
+  "description": "文档卡片操作面板：集中展示产出的 Word/PDF/Excel/PPT 文档，支持一键用默认软件打开、在文件资源管理器中定位、复制到桌面与复制路径。",
+  "display_name": "文档卡片助手",
+  "has_web_ui": true,
+  "restart_policy": "always",
+  "ui_config": {
+    "display_name": "文档卡片助手",
+    "views": [
+      {
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "path": "/",
+        "title": "文档卡片助手"
+      }
+    ]
+  }
+}
